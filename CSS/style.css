@@ -46,3 +46,15 @@
     
 }
 
+/* Video section */
+
+#video{
+    height: 600px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+
+
+}
