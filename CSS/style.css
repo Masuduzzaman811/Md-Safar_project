@@ -55,6 +55,54 @@
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
+}
 
+/* Cards */
 
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.container{
+    border: 1px black solid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 60px;
+    
+    
+}
+
+/* footer */
+
+#footer #list{
+    height: 90px;
+    width: 80%;
+    
+    background-color: rgba(168, 146, 146, 0.308);
+    margin: 0 auto;
+    justify-content: center;
+}
+#footer{
+    background-color: whitesmoke;
+    
+}
+
+#footer #list li{
+    /* text-decoration: none; */
+    display: flex;
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: larger;
+    
+}
+#footer #list ul{
+    display: flex;
+    float: right;
+   
 }
